@@ -1031,7 +1031,7 @@ template <typename T> struct FMT_EXTERN_TEMPLATE_API divtest_table_entry {
 // Static data is placed in this class template for the header-only config.
 template <typename T = void> struct FMT_EXTERN_TEMPLATE_API basic_data {
   static const uint64_t powers_of_10_64[];
-  static constexpr uint32_t zero_or_powers_of_10_32_new[] = {
+  static const uint32_t zero_or_powers_of_10_32_new[] = {
       0, 0, FMT_POWERS_OF_10(1)};
   static const uint64_t zero_or_powers_of_10_64_new[];
   static const uint64_t grisu_pow10_significands[];
