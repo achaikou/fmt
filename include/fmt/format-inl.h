@@ -258,7 +258,7 @@ const uint64_t basic_data<T>::zero_or_powers_of_10_64[] = {
     10000000000000000000ULL};
 
 template <typename T>
-constexpr uint32_t basic_data<T>::zero_or_powers_of_10_32_new[];
+const uint32_t basic_data<T>::zero_or_powers_of_10_32_new[];
 
 template <typename T>
 const uint64_t basic_data<T>::zero_or_powers_of_10_64_new[] = {
